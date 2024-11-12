@@ -131,6 +131,7 @@
       },
       "defaultValue": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/defaultValue",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-output-defaultvalue-dev",
           "tags": [
             "web-features:output"
@@ -222,6 +223,7 @@
       },
       "htmlFor": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/htmlFor",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-output-htmlfor",
           "tags": [
             "web-features:output"
@@ -397,6 +399,7 @@
       },
       "setCustomValidity": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/setCustomValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-setcustomvalidity-dev",
           "tags": [
             "web-features:constraint-validation"
@@ -404,7 +407,7 @@
           "support": {
             "chrome": {
               "version_added": "9",
-              "notes": "This method only updates the validation error popup, not the tooltip that appears when hovering the mouse over the element, see <a href='https://crbug.com/828757'>bug 828757</a>."
+              "notes": "This method only updates the validation error popup, not the tooltip that appears when hovering the mouse over the element, see <a href='https://crbug.com/41380670'>bug 41380670</a>."
             },
             "chrome_android": "mirror",
             "edge": {
@@ -485,6 +488,7 @@
       },
       "validationMessage": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/validationMessage",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-validationmessage-dev",
           "tags": [
             "web-features:constraint-validation"

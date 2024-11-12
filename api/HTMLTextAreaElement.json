@@ -396,6 +396,7 @@
       },
       "maxLength": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/maxLength",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-textarea-maxlength",
           "tags": [
             "web-features:textarea"
@@ -443,6 +444,7 @@
       },
       "minLength": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/minLength",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-textarea-minlength",
           "tags": [
             "web-features:textarea"
@@ -752,6 +754,7 @@
       },
       "select": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/select",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-textarea/input-select-dev",
           "tags": [
             "web-features:textarea"
@@ -852,7 +855,7 @@
           "support": {
             "chrome": {
               "version_added": false,
-              "notes": "A <code>selectionchange</code> event is fired on <code>Document</code>, see <a href='https://developer.mozilla.org/docs/Web/API/Document/selectionchange_event'><code>Document</code>'s <code>selectionchange</code> event</a>. See <a href='https://crbug.com/1327098'>bug 1327098</a> for firing the event on <code>&lt;textarea&gt;</code> elements."
+              "notes": "A <code>selectionchange</code> event is fired on <code>Document</code>, see <a href='https://developer.mozilla.org/docs/Web/API/Document/selectionchange_event'><code>Document</code>'s <code>selectionchange</code> event</a>. See <a href='https://crbug.com/40840956'>bug 40840956</a> for firing the event on <code>&lt;textarea&gt;</code> elements."
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -884,6 +887,7 @@
       },
       "selectionDirection": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/selectionDirection",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-textarea/input-selectiondirection",
           "tags": [
             "web-features:textarea"
@@ -925,6 +929,7 @@
       },
       "selectionEnd": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/selectionEnd",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-textarea/input-selectionend",
           "tags": [
             "web-features:textarea"
@@ -968,6 +973,7 @@
       },
       "selectionStart": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/selectionStart",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-textarea/input-selectionstart",
           "tags": [
             "web-features:textarea"
@@ -1011,6 +1017,7 @@
       },
       "setCustomValidity": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/setCustomValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-setcustomvalidity-dev",
           "tags": [
             "web-features:constraint-validation"
@@ -1018,7 +1025,7 @@
           "support": {
             "chrome": {
               "version_added": "4",
-              "notes": "This method only updates the validation error popup, not the tooltip that appears when hovering the mouse over the element, see <a href='https://crbug.com/828757'>bug 828757</a>."
+              "notes": "This method only updates the validation error popup, not the tooltip that appears when hovering the mouse over the element, see <a href='https://crbug.com/41380670'>bug 41380670</a>."
             },
             "chrome_android": "mirror",
             "edge": {
@@ -1059,6 +1066,7 @@
       },
       "setRangeText": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/setRangeText",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-textarea/input-setrangetext-dev",
           "tags": [
             "web-features:textarea"
@@ -1096,6 +1104,7 @@
       },
       "setSelectionRange": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/setSelectionRange",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-textarea/input-setselectionrange-dev",
           "tags": [
             "web-features:textarea"
@@ -1231,6 +1240,7 @@
       },
       "validationMessage": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/validationMessage",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-validationmessage-dev",
           "tags": [
             "web-features:constraint-validation"
